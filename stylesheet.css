@@ -3,15 +3,7 @@
 }
 
 #house_pic {
-  background: url(img/home.png);
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: center;
-  height: 450px;
-  background-color: grey;
-  padding: auto;
-  padding: auto;
-  margin: auto;
+  height: 100%;
 }
 
 /* DivTable.com */
@@ -52,5 +44,27 @@
 }
 
 .menu {
-  width: 100%;
+  width: 60%;
+  margin: auto;
+}
+
+.menuitem {
+  height: 100px;
+}
+
+.custom_icon {
+  height: 50px;
+}
+
+.transparent_btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.menutd {
+  text-align: center;
 }
