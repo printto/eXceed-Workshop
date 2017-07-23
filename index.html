@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <title>Smart Home</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="test.js"></script>
+  <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <link rel="stylesheet" type="text/css" href="animation.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div class="container" style="padding: auto;">
+
+    <div class="page-header" style="text-align: center;">
+      <h1>Smart Home System <small>Auto mode is <button id="auto_btn">OFF</button></small></h1>
+    </div>
+
+    <div class="row" style="text-align: center; width: 100%; margin: auto;">
+      <div class="col-sm-10">
+        <div class="row" style="height: 70px; background-color: white; padding: auto; padding: auto; margin: auto;">
+          <h1>Controlling</h1></div>
+        <table class="menu">
+          <tbody>
+            <tr>
+              <td>&nbsp;</td>
+              <td><button class="custom_btn">light</button></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td><button class="custom_btn">air</button></td>
+              <td>&nbsp;</td>
+              <td><button class="custom_btn">door</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-2">
+        <div class="row" style="height: 70px; background-color: white; padding: auto; margin: auto;">
+          <h1>Information</h1></div>
+        <div class="row" style="height: 150px; background-color: grey; padding: auto; margin: 10px; border-radius: 10px;"><br/>
+          <div class="infonum" id="people">0</div>People</div>
+        <div class="row" style="height: 150px; background-color: grey; padding: auto; margin: 10px; border-radius: 10px;"><br/>
+          <div class="infonum" id="temp">0</div>Temperature</div>
+        <div class="row" style="height: 150px; background-color: grey; padding: auto; margin: 10px; border-radius: 10px;"><br/>Brightness<br/>
+          <div class="infonum" id="bright">0</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
